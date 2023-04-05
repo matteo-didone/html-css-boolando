@@ -45,3 +45,102 @@ header
 {
     float: right;
 }
+
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.row
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+.column
+{
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+
+.first-column
+{
+    width: 31.32%;
+}
+
+.second-column
+{
+    width: 31.32%;
+}
+
+.third-column
+{
+    width: 31.32%;
+}
+
+.fourth-column
+{
+    width: 31.32%;
+}
+
+.fifth-column
+{
+    width: 31.32%;
+}
+
+.sixth-column
+{
+    width: 31.32%;
+}
+
+.heart
+{
+
+}
+
+.discount
+{
+
+}
+
+.sustainability
+{
+
+}
+
+.brand
+{
+
+}
+
+.product-description
+{
+
+}
+
+.price
+{
+
+}
+
+.full-price
+{
+
+}
+
+.discounted-price
+{
+
+}
+
+.product-image
+{
+
+}
+
+.product-image img
+{
+
+}
