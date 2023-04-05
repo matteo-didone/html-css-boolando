@@ -5,3 +5,43 @@
     margin: 0;
     padding: 0;
 }
+
+header 
+{
+    background-color: rgba(255,105,0,255);
+    color: white;
+}
+
+.navbar
+{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar ul
+{
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li
+{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+.navbar-left
+{
+    float: left;
+}
+
+.navbar-right
+{
+    float: right;
+}
