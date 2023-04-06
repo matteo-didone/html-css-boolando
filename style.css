@@ -12,6 +12,12 @@ header
     color: white;
 }
 
+footer
+{
+    background-color: rgba(26,26,26,255);
+    color: white;
+}
+
 .navbar
 {
     height: 50px;
@@ -146,6 +152,11 @@ header
 }
 
 .product-image img:hover
+{
+
+}
+
+.logos
 {
 
 }
