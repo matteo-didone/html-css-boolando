@@ -5,13 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- FONT SANS DISPLAY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME 6.4.0 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <title>Boolando</title>
 </head>
 
 <body>
 
     <header>
-        <nav class="navbar left-navbar">
+        <nav class="navbar left-navbar flex-between">
             <ul>
                 <li><a href="#">Donna</a></li>
                 <li><a href="#">Uomo</a></li>
@@ -19,16 +27,16 @@
             </ul>
         </nav>
 
-        <div class="logo-header">
-            <img src="img/logo.png" alt="logo">
+        <div class="logo-header flex">
+            <img src="img/boolean-logo.png" alt="logo">
         </div>
 
 
-        <nav class="navbar right-navbar">
+        <nav class="navbar right-navbar flex-between">
             <ul>
-                <li><img src="img/login-logo.png" alt="login-logo"></li>
-                <li><img src="img/heart.png" alt="heart"></li>
-                <li><img src="img/shopping-bag.png" alt="shopping-bag"></li>
+                <li><i class="fa-regular fa-user" style="color: #ffffff;"></i></li>
+                <li><i class="fa-regular fa-heart" style="color: #ffffff;"></i></li>
+                <li><i class="fa-solid fa-bag-shopping" style="color: #ffffff;"></i></li>
             </ul>
         </nav>
     </header>
@@ -58,16 +66,17 @@
                     <div class="product-description">
                         <p class="brand">Levi's</p>
                         <p class="product-description">RELAXED FIT TEE UNISEX</p>
-                        <span class="discounted-price"><strong>14,99€</strong></span> 
-                        <span class="full-price">29,99€</span>
                     </div>
+
+                    <span class="discounted-price"><strong>14,99€</strong></span> 
+                    <span class="full-price">29,99€</span>
 
                 </div>
 
                 <div class="column second-column"> 
 
                     <div class="product-image"> 
-                        <img src="./img/2.webp" alt="levi-tee">
+                        <img src="./img/2.webp" alt="guess-tee">
 
                         <div class="heart">
                             <p>&hearts;</p>
@@ -81,17 +90,20 @@
                     <div class="product-description">
                         <p class="brand">Guess</p>
                         <p class="product-description">ROSES TEE</p>
-                        <span class="discounted-price"><strong>20,99€</strong>></span> 
-                        <span class="full-price">29,99€</span>
                     </div>
+
+                    <span class="discounted-price"><strong>20,99€</strong></span> 
+                    <span class="full-price">29,99€</span>
+
                 </div>
 
 
 
                 <div class="column third-column"> 
 
-                    <div class="product-description">
-                        <img src="./img/3.webp" alt="guess-tee">
+                    <div class="product-image">
+                        <img src="./img/3.webp" alt="overall">
+
                         <div class="heart">
                             <p>&hearts;</p>
                         </div>
@@ -104,9 +116,10 @@
                     <div class="product-description">
                         <p class="brand">Come Zucchero Filato</p>
                         <p class="product-description">VOGLIA DI COLORI PASTELLO</p>
-                        <span class="discounted-price"><strong>129,99€</strong></span> 
-                        <span class="full-price">184,99€</span>
                     </div>
+
+                    <span class="discounted-price"><strong>129,99€</strong></span> 
+                    <span class="full-price">184,99€</span>
 
                 </div>
     
@@ -139,9 +152,10 @@
                     <div class="product-description">
                         <p class="brand">Levi's</p>
                         <p class="product-description">TEE UNISEX</p>
-                        <span class="discounted-price"><strong>14,99€</strong></span> 
-                        <span class="full-price">29,99€</span>
                     </div>
+
+                    <span class="discounted-price"><strong>14,99€</strong></span> 
+                    <span class="full-price">29,99€</span>
                     
                 </div>
 
@@ -157,8 +171,9 @@
                     <div class="product-description">
                         <p class="brand">Maya Deluxe</p>
                         <p class="product-description">STRIPE BODICE</p>
-                        <span class="discounted-price"><strong>99,99€</strong></span> 
                     </div>
+
+                    <span class="discounted-price"><strong>99,99€</strong></span> 
 
                 </div>
 
@@ -178,8 +193,9 @@
                     <div class="product-description">
                         <p class="brand">Esprit</p>
                         <p class="product-description">MAGLIONE - BLACK</p>
-                        <span class="discounted-price"><strong>29,99€</strong></span> 
                     </div>
+                    
+                    <span class="discounted-price"><strong>29,99€</strong></span> 
 
                 </div>
     
@@ -189,11 +205,11 @@
 
     </main>
 
-    <footer>ù
+    <footer>
 
         <div class="footer-left">
             <h2>Boolando s.r.l</h2>
-            <ul>
+            <ul class="legal-info">
                 <li><a href="#">Informazioni Legali</a></li>
                 <li><a href="#">Informativa sulla privacy</a></li>
                 <li><a href="#">Diritto di recesso</a></li>
@@ -202,12 +218,12 @@
 
         <div class="footer-right">
             <h2>Trovaci anche su</h2>
-            <ul>
-                <li><img src="./img/twitter.svg" alt="twitter-logo" class="logos"></li>
-                <li><img src="./img/facebook.svg" alt="facebook-logo" class="logos"></li>
-                <li><img src="./img/instagram.svg" alt="instagram-logo" class="logos"></li>
-                <li><img src="./img/pinterest.svg" alt="pinterest-logo" class="logos"></li>
-                <li><img src="./img/youtube.svg" alt="youtube-logo" class="logos"></li>
+            <ul class="social-icons">
+                <li><i class="fa-brands fa-square-twitter" style="color: #ffffff;"></i></li>
+                <li><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></li>
+                <li><i class="fa-brands fa-square-instagram" style="color: #ffffff;"></i></li>
+                <li><i class="fa-brands fa-square-pinterest" style="color: #ffffff;"></i></li>
+                <li><i class="fa-brands fa-square-youtube" style="color: #ffffff;"></i></li>
             </ul>
         </div>
 
