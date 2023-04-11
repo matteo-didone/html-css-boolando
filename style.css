@@ -68,10 +68,17 @@ footer
     color: white;
 }
 
+footer h2 
+{
+    font-size: 1.15rem;
+    margin-bottom: .6rem
+}
+
 .footer-left
 {
     display: flex;
-    justify-content: space-between;
+    align-self: flex-start;
+    justify-content: flex-start;
     list-style: none;
     padding: 0;
 }
@@ -84,10 +91,16 @@ footer
 .footer-right
 {
     display: flex;
+    align-self: flex-end;
     justify-content: space-between;
     list-style: none;
     padding: 0; 
     margin-bottom: 10px
+}
+
+.footer-right h2
+{
+    margin: 0;
 }
 
 ul
@@ -284,8 +297,8 @@ li
 
 .social-icons
 {
-    display: inline;
-    align-items: center;
+    display: flex;
+    align-items: row;
     justify-content: space-between;
     padding: 1rem 0;
 }
