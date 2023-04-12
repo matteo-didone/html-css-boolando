@@ -77,59 +77,42 @@ footer
 {
     background-color: rgba(26,26,26,255);
     color: white;
+    padding: 2rem;
 }
 
-footer h2 
+
+footer h3
+{
+    font-size: 1.35rem;
+    margin-bottom: 1rem;
+}
+
+footer h4
 {
     font-size: 1.15rem;
-    margin-bottom: .6rem
+    margin-bottom: .6rem;
 }
 
-.footer-left
+footer ul li{
+    margin-right: .5rem;
+}
+
+.footer ul 
 {
-    display: flex;
-    align-self: flex-start;
-    justify-content: flex-start;
     list-style: none;
-    padding: 0;
-}
-
-.footer-left h2
-{
-    font-size: 1rem;
-    margin-bottom:.6rem;
-    margin-left: .6rem;
-}
-
-.footer-left ul 
-{
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
     padding: 0;
-    margin-bottom:.2rem;
-    margin-left: .6rem;
 }
 
-.footer-left li, .footer-right li
+.footer ul li
 {
     margin: 0 10px;
 }
 
-.footer-right
-{
-    display: flex;
-    align-self: flex-end;
-    justify-content: space-between;
-    list-style: none;
-    padding: 0; 
-    margin-bottom: 10px
-}
-
-.footer-right h2
-{
-    margin: 0;
-}
 
 ul
 {
@@ -308,14 +291,3 @@ li
 {
     content: url('./img/6b.webp');
 }
-
-.social-icons, .footer-right h2
-{
-    display: flex;
-    align-items: row;
-    justify-content: space-between;
-    padding: 1rem 0;
-}
-
-
-
